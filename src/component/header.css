@@ -1,0 +1,15 @@
+header .container .row .main {
+  padding: 20px;
+  background: #3a3a58;
+}
+header .container .row .main .menu ul {
+  justify-content: space-between;
+}
+header .container .row .main .menu ul li i {
+  color: rgba(255, 255, 255, 0.7215686275);
+  transition: all 0.3s;
+  font-size: 18px;
+}
+header .container .row .main .menu ul li:hover i {
+  color: rgb(255, 230, 0);
+}/*# sourceMappingURL=header.css.map */

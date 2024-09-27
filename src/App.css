@@ -2,6 +2,35 @@
   text-align: center;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0px auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+input {
+  outline: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +61,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

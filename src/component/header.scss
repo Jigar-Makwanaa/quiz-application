@@ -1,0 +1,35 @@
+// header start 
+
+header {
+    .container {
+        .row {
+            .main {
+                padding: 20px;
+                background: #3a3a58;
+
+                .menu {
+                    ul {
+                        justify-content: space-between;
+
+                        li {
+                            
+                            i {
+                                color: #ffffffb8;
+                                transition: all 0.3s;
+                                font-size: 18px;
+                            }
+
+                            &:hover {
+                               i {
+                                color: rgb(255, 230, 0);
+                               }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// header end

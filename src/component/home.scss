@@ -1,0 +1,108 @@
+// quiz-section start
+
+.quiz-section {
+    .container {
+        .main {
+            padding: 20px;
+            background: #3a3a58;
+
+            .box {
+                background-color: #706291b8;
+                border-radius: 12px;
+                padding: 15px;
+
+                .content {
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .details {
+                        width: 70%;
+
+                        h2 {
+                            text-align: start;
+                            color: rgba(255, 255, 255, 0.7215686275);
+                            padding-bottom: 15px;
+                        }
+
+                        p {
+                            text-align: start;
+                            color: rgba(255, 255, 255, 0.7215686275);
+                        }
+
+                    }
+
+                    .btn {
+                        width: 28%;
+
+                        a {
+                            width: 100%;
+                            padding: 10px 15px;
+                            border-radius: 12px;
+                            border: 0px;
+                            background-color: rgb(255, 230, 0);
+                            color: black;
+                            font-weight: 600;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// quiz-section end
+
+// complete quiz start 
+
+.complete-quiz {
+    .container {
+        .row {
+            background: #3a3a58;
+
+            .main {
+                padding: 20px;
+
+                .heading {
+                    padding-bottom: 20px;
+
+                    h2 {
+                        text-align: start;
+                        color: rgba(255, 255, 255, 0.7215686275);
+                    }
+                }
+
+                .box {
+                    padding: 15px 0px;
+                    .content {
+                        padding: 15px;
+                        background-color: #706291b8;
+                        border-radius: 12px;
+
+                        .head {
+                            justify-content: space-between;
+                            align-items: center;
+
+                            .title {
+
+                                h3 {
+                                    text-align: start;
+                                    color: rgba(255, 255, 255, 0.7215686275);
+                                }
+                            }
+
+                            .icon {
+                                i {
+                                    color: rgba(255, 255, 255, 0.7215686275);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// complete quiz end

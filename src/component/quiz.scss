@@ -1,0 +1,53 @@
+.quiz-section {
+    .container {
+        .row {
+            .main {
+                padding: 20px;
+                background: #3a3a58;
+                min-height: 91vh;
+
+                .que-head {
+                    padding-bottom: 20px;
+
+                    h2 {
+                        color: #ffffffb8;
+                    }
+                }
+
+                .box {
+                    .content {
+                        .details {
+                            width: 100%;
+
+                            .que {
+
+                                h3 {
+                                    color: #ffffffb8;
+                                    text-align: start;
+                                    padding: 15px;
+                                }
+                            }
+
+                            .option {
+                                ul {
+                                    li {
+                                        width: 100%;
+                                        padding: 15px;
+
+                                        a {
+                                            background-color: #3a3a58;
+                                            padding: 12px;
+                                            display: block;
+                                            border-radius: 12px;
+                                            color: #ffffffb8;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

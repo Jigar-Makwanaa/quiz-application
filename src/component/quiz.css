@@ -1,0 +1,30 @@
+.quiz-section .container .row .main {
+  padding: 20px;
+  background: #3a3a58;
+  min-height: 91vh;
+}
+.quiz-section .container .row .main .que-head {
+  padding-bottom: 20px;
+}
+.quiz-section .container .row .main .que-head h2 {
+  color: rgba(255, 255, 255, 0.7215686275);
+}
+.quiz-section .container .row .main .box .content .details {
+  width: 100%;
+}
+.quiz-section .container .row .main .box .content .details .que h3 {
+  color: rgba(255, 255, 255, 0.7215686275);
+  text-align: start;
+  padding: 15px;
+}
+.quiz-section .container .row .main .box .content .details .option ul li {
+  width: 100%;
+  padding: 15px;
+}
+.quiz-section .container .row .main .box .content .details .option ul li a {
+  background-color: #3a3a58;
+  padding: 12px;
+  display: block;
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 0.7215686275);
+}/*# sourceMappingURL=quiz.css.map */
