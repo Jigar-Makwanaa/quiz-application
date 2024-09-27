@@ -18,9 +18,6 @@ const Header = () => {
                                         <Link to={'/quiz'}><i class="fa-solid fa-circle-play"></i></Link>
                                     </li>
                                     <li>
-                                        <Link to={'/score'}><i class="fa-solid fa-file"></i></Link>
-                                    </li>
-                                    <li>
                                         <i class="fa-solid fa-user"></i>
                                     </li>
                                 </ul>

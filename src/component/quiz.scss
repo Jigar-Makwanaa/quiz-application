@@ -6,15 +6,20 @@
                 background: #3a3a58;
                 min-height: 91vh;
 
-                .que-head {
+                h1 {
+                    color: #ffa500;
                     padding-bottom: 20px;
-
-                    h2 {
-                        color: #ffffffb8;
-                    }
                 }
 
                 .box {
+                    .que-head {
+                        padding-bottom: 20px;
+
+                        h2 {
+                            color: #ffffffb8;
+                        }
+                    }
+
                     .content {
                         .details {
                             width: 100%;
@@ -33,17 +38,45 @@
                                     li {
                                         width: 100%;
                                         padding: 15px;
-
-                                        a {
-                                            background-color: #3a3a58;
-                                            padding: 12px;
-                                            display: block;
-                                            border-radius: 12px;
-                                            color: #ffffffb8;
-                                        }
+                                        margin: 10px 0px;
+                                        background-color: #3a3a58;
+                                        display: block;
+                                        border-radius: 12px;
+                                        color: #ffffffb8;
                                     }
                                 }
                             }
+
+                            .ans {
+                                h3 {
+                                    color: #ffffffb8;
+                                }
+                            }
+                        }
+
+                        .btn {
+                            width: 100%;
+                            padding-top: 15px;
+
+                            button {
+                                background-color: red;
+                                border: 0px;
+                                padding: 10px 15px;
+                                border-radius: 12px;
+                                display: inline-block;
+                                color: #ffffffb8;
+                                font-weight: 600;
+                                font-size: 15px;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                    .results {
+                        padding-bottom: 20px;
+
+                        h2 {
+                            color: #ffffffb8;
                         }
                     }
                 }
